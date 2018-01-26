@@ -1,30 +1,31 @@
 {
   "name": "bot",
   "version": "1.0.0",
-  "description": "a discord bot",
+  "description": "Discord Bot",
   "main": "index.js",
-  "engines" {
-	"node": "9.4.0",
-	"npm": "5.6.0"
-  "dependencies": {
-    "discord.js": "^11.3.0"
+  "engines": {
+    "node": "9.4.0",
+    "npm": "5.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VioletFox/FoxBot3.git"
+    "url": "https://github.com/VioletFox/FoxBot3"
   },
-  "keywords": [
-    "FoxBot"
+  "FoxBot": [
+    "FoxBot",
+    "discord.js"
   ],
-  "author": "VioletTheFox",
+  "author": "VioletFox",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VioletFox/FoxBot3/issues"
+    "url": "https://github.com/VioletFox/FoxBot3"
   },
-  "homepage": "https://github.com/VioletFox/FoxBot3#readme"
+  "homepage": "https://github.com/VioletFox/FoxBot3",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  }
 }
